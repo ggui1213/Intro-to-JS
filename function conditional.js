@@ -4,11 +4,9 @@ let cat2 = 3;
 Conditional();
 
 function Conditional(){
-	if (cat1 > cat2) {
-		console.log("The first cat is older than the second cat.");
-	}else if (cat1 < cat2){
-		console.log("The first cat is younger than the second cat.");
+	if (cat1 == cat2) {
+		console.log("Two cats are at same age.");
 	}else{
-		console.log("The two cats are at the same age.")
+		console.log("Two cats are not at same age.");
 	}
 }
